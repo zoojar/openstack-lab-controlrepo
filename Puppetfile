@@ -99,7 +99,7 @@ mod "concat",
 
 mod "memcached",
   :git => "git://github.com/saz/puppet-memcached",
-  :ref => "658374848a6d2cf07f0bf714bc34709e9d0ee109"
+  :tag => "v2.8.1"
 
 mod "ssh",
   :git => "git://github.com/saz/puppet-ssh",
