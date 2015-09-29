@@ -1,7 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 ## Node Classification
-mod "pe_gem", '0.1.1'
+mod 'pe_gem', '0.1.1'
 
 mod "classifier",
   :git => "git://github.com/zoojar/zj-classifier",
