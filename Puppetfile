@@ -1,61 +1,54 @@
 forge "http://forge.puppetlabs.com"
 
 ## The core OpenStack modules
-mod "openstack",
-  :git => "git://github.com/puppetlabs/puppetlabs-openstack",
-  :ref => "stable/juno"
 
 mod "keystone",
   :git => "git://github.com/stackforge/puppet-keystone",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "swift",
   :git => "git://github.com/stackforge/puppet-swift",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "glance",
   :git => "git://github.com/stackforge/puppet-glance",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "cinder",
   :git => "git://github.com/stackforge/puppet-cinder",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "neutron",
   :git => "git://github.com/stackforge/puppet-neutron",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "nova",
   :git => "git://github.com/stackforge/puppet-nova",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "heat",
   :git => "git://github.com/stackforge/puppet-heat",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "ceilometer",
   :git => "git://github.com/stackforge/puppet-ceilometer",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "horizon",
   :git => "git://github.com/stackforge/puppet-horizon",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "openstacklib",
   :git => "git://github.com/stackforge/puppet-openstacklib",
-  :ref => "master"
-
-mod "openstack_extras",
-  :git => "git://github.com/stackforge/puppet-openstack_extras",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "tempest",
   :git => "git://github.com/stackforge/puppet-tempest",
-  :ref => "master"
+  :ref => "stable/juno"
 
 mod "vswitch",
   :git => "git://github.com/stackforge/puppet-vswitch",
-  :ref => "master"
+  :ref => "stable/juno"
 
 ## R10K doesn't handle dependencies, so let's handle them here
 # pointing to as many stable projects as possible
@@ -69,17 +62,13 @@ mod "epel",
   :git => "git://github.com/stahnma/puppet-module-epel",
   :ref => "master"
 
-mod "erlang",
-  :git => "git://github.com/garethr/garethr-erlang",
-  :ref => "master"
-
 mod "inifile",
   :git => "git://github.com/puppetlabs/puppetlabs-inifile",
   :ref => "1.0.x"
 
 mod "mysql",
   :git => "git://github.com/puppetlabs/puppetlabs-mysql",
-  :ref => "3.3.x"
+  :ref => "master"
 
 mod "stdlib",
   :git => "git://github.com/puppetlabs/puppetlabs-stdlib",
@@ -99,7 +88,7 @@ mod "concat",
 
 mod "memcached",
   :git => "git://github.com/saz/puppet-memcached",
-  :tag => "v2.8.1"
+  :ref => "658374848a6d2cf07f0bf714bc34709e9d0ee109"
 
 mod "ssh",
   :git => "git://github.com/saz/puppet-ssh",
@@ -114,7 +103,7 @@ mod "sysctl",
 
 mod "rabbitmq",
   :git => "git://github.com/puppetlabs/puppetlabs-rabbitmq",
-  :ref => "5.2.0"
+  :ref => "5.0.0"
 
 mod "staging",
   :git => "git://github.com/nanliu/puppet-staging",
