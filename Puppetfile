@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 ## Node Classification
 mod "classifier",
-  :git => "git://github.com/zoojar/classifier",
+  :git => "git://github.com/zoojar/zj-classifier",
   :ref => "openstack"
 
 ## The core OpenStack modules
