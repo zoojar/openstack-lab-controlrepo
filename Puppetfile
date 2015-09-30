@@ -1,5 +1,9 @@
 forge "http://forge.puppetlabs.com"
 
+mod "openstack",
+  :git => "git://github.com/puppetlabs/puppetlabs-openstack",
+  :ref => "stable/juno"
+
 ## The core OpenStack modules
 
 mod "keystone",
